@@ -1,0 +1,107 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--negro);
+    font-family: 'Marcellus', serif;
+    font-size: 1.3em;
+    padding: 1rem;
+}
+
+.item{
+    padding: 1rem;
+    }
+    .menu a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    .menu i{
+        margin-right: 0.5rem;
+    }
+    .logo img{
+        height: 3rem;
+    }
+    .itemA{
+        background-color: var(--azuloscuro);
+        padding: 0.5rem 1rem;
+        color: var(--blanco);
+        border-radius: 5px;
+        font-family: 'Marcellus', serif;
+        font-size: 1em; 
+    }
+    #features{
+        background: url(../img/bg-features.png);
+        color: white;
+        padding-top: 1rem;
+    }
+    
+    
+    .features-title{
+        background-color: rgba(0,0,0,0.35);
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5em;
+    }
+    .features-description{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .feature{
+        width: 25%;
+        min-width: 180px;
+        max-width: 230px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    
+    .feature i{
+        font-size: 2.2em;
+        margin-bottom: 1.5rem;
+    }
+    .feature-blue{
+        background-color: #00325eae;
+    }
+    
+    
+    .feature-black{
+        background-color: rgba(0,0,0,0.59);
+    }
+   
+    .content{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        padding: 10px;
+        color: white;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.356), rgba(255, 192, 203, 0));
+    }
+    .medio{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 150%;
+        padding: 5%;
+    }
+    .footer{
+      padding: 4%;
+        background-color: var(--negro);
+        color: var(--blanco);
+    }
+    .flo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+         .footer i{
+            padding: 3% 3% 3% 0% ;
+         }
+    
+    
+    
